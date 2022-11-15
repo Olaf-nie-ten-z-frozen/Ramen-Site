@@ -175,6 +175,12 @@ h3{
     position: absolute;
     justify-content: space-between;
 }
+.Types{
+    padding: 50px 0;
+    text-align: center;
+    padding-bottom: 5%;
+    margin-bottom: 30%;
+}
 .typeCol{
     flex-basis: 25em;
     text-align: center;
@@ -204,4 +210,46 @@ h3{
     .row{
         flex-direction: column;
     }
+}
+.Places{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.PlacesTitle{
+    text-align: center;
+    padding: 50px 0 0 0;
+    font-size: 50px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+.Columns{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10% 0 10%;
+}
+.Columns img{
+    width: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.Layer{
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.col-places{
+    flex-basis: 32%;
+    text-align: center;
+    background: #fff3f3;
+    border-radius: 10px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    justify-content: center;
+    transition: 0.5s;
 }
